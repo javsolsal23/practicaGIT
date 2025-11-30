@@ -26,9 +26,9 @@ namespace ejercicioTelegrama
             {
                 num = int.Parse(txtNum.Text);
 
-                if (num < 1)
+                if (num < 2)
                 {
-                    MessageBox.Show("Elige un número que sea mayor a 0");
+                    MessageBox.Show("Elige un número que sea mayor a 1");
                     txtNum.Clear();
                     return;
                 }
@@ -50,11 +50,6 @@ namespace ejercicioTelegrama
             {
 
             }
-        }
-
-        private void txtNum_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
