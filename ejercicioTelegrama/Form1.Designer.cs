@@ -36,7 +36,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(64, 60);
+            this.label1.Location = new System.Drawing.Point(95, 73);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(50, 13);
             this.label1.TabIndex = 5;
@@ -44,15 +44,14 @@
             // 
             // txtNum
             // 
-            this.txtNum.Location = new System.Drawing.Point(131, 57);
+            this.txtNum.Location = new System.Drawing.Point(162, 70);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(100, 20);
             this.txtNum.TabIndex = 4;
-            this.txtNum.TextChanged += new System.EventHandler(this.txtNum_TextChanged);
             // 
             // btnMostrar
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(131, 141);
+            this.btnMostrar.Location = new System.Drawing.Point(162, 154);
             this.btnMostrar.Name = "btnMostrar";
             this.btnMostrar.Size = new System.Drawing.Size(97, 33);
             this.btnMostrar.TabIndex = 3;
@@ -64,7 +63,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(341, 259);
+            this.ClientSize = new System.Drawing.Size(384, 316);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNum);
             this.Controls.Add(this.btnMostrar);
